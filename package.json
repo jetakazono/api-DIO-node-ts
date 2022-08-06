@@ -1,0 +1,38 @@
+{
+  "name": "dio-api-node-ts",
+  "version": "1.0.0",
+  "description": "### Como inicializar a aplicação * npm run dev",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "test": "jest NODE_ENV='teste'",
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jetakazono/DIO-api-node-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jetakazono/DIO-api-node-ts/issues"
+  },
+  "homepage": "https://github.com/jetakazono/DIO-api-node-ts#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^28.1.6",
+    "@types/uuid": "^8.3.4",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.7",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.10",
+    "typeorm": "^0.3.7",
+    "uuid": "^8.3.2"
+  }
+}
